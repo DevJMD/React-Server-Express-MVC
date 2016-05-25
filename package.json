@@ -1,0 +1,30 @@
+{
+  "devDependencies": {
+    "babel-cli": "^6.6.5",
+    "babel-preset-es2015": "^6.5.0",
+    "babel-preset-react": "^6.5.0",
+    "morgan": "^1.7.0"
+  },
+  "scripts": {
+    "start": "nodemon --exec babel-node app.js -e js,jsx,html --plugins transform-react-jsx server/views/**/*.jsx"
+  },
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "cookie-parser": "^1.4.1",
+    "csurf": "^1.8.3",
+    "express": "^4.13.4",
+    "express-react-views": "^0.10.1",
+    "express-session": "^1.13.0",
+    "glob": "^7.0.3",
+    "mongoose": "^4.4.19",
+    "mongoose-findorcreate": "^0.1.2",
+    "node-uuid": "^1.4.7",
+    "nunjucks": "^2.4.1",
+    "passport": "^0.3.2",
+    "passport-local": "^1.0.0",
+    "passport-local-mongoose": "^4.0.0",
+    "react": "^15.1.0",
+    "react-dom": "^15.1.0",
+    "request-promise": "^2.0.1"
+  }
+}
