@@ -6,7 +6,7 @@
     "morgan": "^1.7.0"
   },
   "scripts": {
-    "start": "nodemon --exec babel-node app.js -e js,jsx,html --plugins transform-react-jsx server/views/**/*.jsx"
+    "start": "nodemon --exec babel-node app.js -e js,jsx,html"
   },
   "dependencies": {
     "body-parser": "^1.15.0",
